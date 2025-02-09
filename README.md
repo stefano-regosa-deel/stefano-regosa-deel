@@ -7,11 +7,11 @@ const match = (about: About) =>
     about,
     M.matchW('_tag')({
        Name: () => 'Stefano Regosa',
-       Role: () => 'Senior Frontend Engineer @ Deel',
+       Role: () => 'Engineering team leader @ Deel',
        Blog: () => 'https://undefined.technology',
        Focus : () => ({ TypeScript , React , Node }),
        Currently: () => 'Hacking in TypeScript',
-       AllAbout: () =>  ['Open Source','Functional Programming','Clean code']
+       AllAbout: () =>  ['writing software that runs at scale']
     })
   )
 ```
